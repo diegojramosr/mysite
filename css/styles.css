@@ -1,0 +1,144 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+
+}
+h1 {
+  color: #DAB88B;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.50rem;
+}
+h2 {
+  color: #DAB88B;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  padding-bottom: 2px;
+}
+h3 {
+  color: #BB9981;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #BB9981;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+a:hover {
+  color: #DDDDDD;
+}
+p {
+  line-height: 2;
+  font-size: 1.1rem;
+}
+hr {
+  border-color: #DDDDDD;
+  border-style: dotted none none;
+  border-width: 6px;
+  width: 7%;
+  margin: 100px auto;
+}
+
+.top-container{
+  background-color: #B7CADB;
+  padding-top: 100px;
+  position: relative;
+}
+.middle-container {
+  margin: 100px 0;
+}
+.bottom-container {
+  background-color: #DAB88B;
+  padding: 50px 0 20px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 500px;
+}
+.skill-row {
+  width: 40%;
+  margin: 100px auto;
+  text-align: left;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.contact-text {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copyright {
+  color: #DDDDDD;
+  font-size: 0.90rem;
+  padding: 20px 0;
+}
+
+.pp {
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+  }
+.pp:hover {
+  background-color: #8FBDD3;
+}
+.tech {
+  width: 30%;
+  border-radius: 25%;
+  float: left;
+  margin-right: 30px;
+  }
+.tech:hover {
+    background: linear-gradient(#B7CADB, #1B1A17);
+  }
+.french {
+  width: 30%;
+  border-radius: 70%;
+  float: right;
+  margin-left: 30px;
+}
+.french:hover {
+  background: linear-gradient(#e66465, #9198e5);
+}
+.uka {
+  width: 12%;
+  top: 75%;
+  left: 2%;
+  position: fixed;
+}
+.chat {
+  width: 12%;
+  top: 75%;
+  right: 2%;
+  position: fixed;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #A97155;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #BE8C63;
+  text-decoration: none;
+}
